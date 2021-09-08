@@ -1,0 +1,55 @@
+/* ------------------------ BASIC ----------------------- */
+body {
+  box-sizing: border-box;
+  background-color: darkgrey;
+}
+
+main {
+  max-width: 600px;
+  margin: 30px auto;
+  background-color: coral;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px grey;
+}
+
+textarea {
+  width: 90%;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+
+/* ------------------------ EXTRA ----------------------- */
+/* .hidden {
+  opacity: 0;
+} */
+
+/* ------------------------ MAIN ------------------------ */
+
+#wordsDiv,
+#lettersDiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.newGraphic {
+  border: 1px solid grey;
+  background-color: #cfc;
+  height: 13px;
+  margin: 5px;
+  padding: 0;
+  text-align: center;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 1px;
+}
